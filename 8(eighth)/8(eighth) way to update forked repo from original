@@ -1,0 +1,13 @@
+1. Clone fork:
+
+git clone https://gist.github.com/1885435.git
+
+2. Add remote from original repository in forked repository:
+
+cd into/cloned/fork-repo
+git remote add upstream [main_fork_clone_url]
+git fetch upstream
+
+3. Updating your fork from original repo to keep up with their changes:
+
+git pull upstream master
